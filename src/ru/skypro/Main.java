@@ -36,6 +36,7 @@ public class Main {
             System.out.println("Средняя сумма трат за месяц составила " + middleValueFloat + " рублей.");
         }
         printRightOrder();
+        solution();
     }
 
     public static int[] generateRandomArray() {  // метод генерирующий массив со случайными числами
@@ -54,4 +55,30 @@ public class Main {
             System.out.print(reverseFullName[i]);
         }
     }
+
+
+        public static void solution() {
+            int a = 100;
+            int b = a < 0 ? -1 : a > 0 && a < 100 ? 1: 0;
+
+            // if (a > 10) {
+            //        b = 1;
+            //  } else {
+            //        b = -1;
+            //  }
+            System.out.println("  " + b);
+            int k = 10;
+            switch (k) {
+                case 10:
+                    System.out.println(10);
+                    break;
+                case 11:
+                    System.out.println("11");
+                    break;
+                case 12:
+                    System.out.println("12");
+                    break;
+            }
+        }
+
 }
